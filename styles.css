@@ -1,0 +1,63 @@
+/* Estilo general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #1f2933;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+/* Secciones */
+section {
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Títulos de sección */
+section h2 {
+    color: #1f2933;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Negritas */
+strong {
+    color: #111827;
+}
+
+/* Efecto hover suave */
+section:hover {
+    transform: scale(1.01);
+    transition: 0.2s ease-in-out;
+}
